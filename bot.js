@@ -297,15 +297,5 @@ By Ҝ€₥σ
 
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
-client.on("ready", () => { // كود رينبو
-  function lol() {
-    client.guilds.get('511582404113072138').roles.find("name", "Rainbow").setColor("RANDOM");
-  };
-  setInterval(lol, 2000);
-});
 
-
-client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "496437834689806336" && ch.type === 'voice').join();
-});
 client.login(process.env.BOT_TOKEN);
